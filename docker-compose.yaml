@@ -1,0 +1,11 @@
+services:
+  mkdocs:
+    container_name: mkdocs-material
+    build:
+      context: mkdocs-material
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    volumes:
+      - "${PWD}:/docs"

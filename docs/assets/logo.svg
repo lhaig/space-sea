@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+    <!-- Background circle -->
+    <circle cx="200" cy="200" r="180" fill="#f0f9ff" stroke="#0891b2" stroke-width="4"/>
+
+    <!-- Gear pattern in background representing technical expertise -->
+    <g transform="translate(200 200)" fill="#0891b2" fill-opacity="0.1">
+      <path d="M0 -160 A160 160 0 0 1 0 160 A160 160 0 0 1 0 -160 M-20 -150 L20 -150 L25 -130 L-25 -130Z M-20 150 L20 150 L25 130 L-25 130Z" transform="rotate(0)"/>
+      <path d="M0 -160 A160 160 0 0 1 0 160 A160 160 0 0 1 0 -160 M-20 -150 L20 -150 L25 -130 L-25 -130Z M-20 150 L20 150 L25 130 L-25 130Z" transform="rotate(72)"/>
+      <path d="M0 -160 A160 160 0 0 1 0 160 A160 160 0 0 1 0 -160 M-20 -150 L20 -150 L25 -130 L-25 -130Z M-20 150 L20 150 L25 130 L-25 130Z" transform="rotate(144)"/>
+      <path d="M0 -160 A160 160 0 0 1 0 160 A160 160 0 0 1 0 -160 M-20 -150 L20 -150 L25 -130 L-25 -130Z M-20 150 L20 150 L25 130 L-25 130Z" transform="rotate(216)"/>
+      <path d="M0 -160 A160 160 0 0 1 0 160 A160 160 0 0 1 0 -160 M-20 -150 L20 -150 L25 -130 L-25 -130Z M-20 150 L20 150 L25 130 L-25 130Z" transform="rotate(288)"/>
+    </g>
+
+    <!-- Five interconnected circles representing SPACE-SE -->
+    <g transform="translate(200 200)">
+      <!-- Satisfaction (Customer & SE satisfaction) -->
+      <circle cx="-80" cy="-60" r="50" fill="#0891b2" fill-opacity="0.7"/>
+      <path d="M-100 -70 L-60 -50 M-100 -60 L-60 -40" stroke="white" stroke-width="2" fill="none"/>
+
+      <!-- Performance (Deal wins & POC success) -->
+      <circle cx="80" cy="-60" r="50" fill="#0e7490" fill-opacity="0.7"/>
+      <path d="M60 -80 L100 -40 M70 -80 L110 -40" stroke="white" stroke-width="2" fill="none"/>
+
+      <!-- Activity (Customer engagements) -->
+      <circle cx="-100" cy="60" r="50" fill="#155e75" fill-opacity="0.7"/>
+      <path d="M-120 40 L-80 80 M-110 40 L-70 80" stroke="white" stroke-width="2" fill="none"/>
+
+      <!-- Communication (Sales collaboration) -->
+      <circle cx="100" cy="60" r="50" fill="#164e63" fill-opacity="0.7"/>
+      <path d="M80 40 L120 80 M90 40 L130 80" stroke="white" stroke-width="2" fill="none"/>
+
+      <!-- Efficiency (Demo & response time) -->
+      <circle cx="0" cy="0" r="50" fill="#083344" fill-opacity="0.7"/>
+      <path d="M-20 -20 L20 20 M-10 -20 L30 20" stroke="white" stroke-width="2" fill="none"/>
+    </g>
+
+    <!-- Text -->
+    <text x="200" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="72" font-weight="bold" fill="#083344">
+      SPACE
+    </text>
+    <text x="200" y="240" text-anchor="middle" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#0891b2">
+      SE
+    </text>
+    <text x="200" y="270" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" fill="#083344">
+      Framework
+    </text>
+  </svg>

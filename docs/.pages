@@ -1,0 +1,5 @@
+nav:
+    - Home: index.md
+    - SPACE-SEA SE: space-sea-se.md
+    - SPACE-SEA SA: space-sea-sa.md
+    - about.md

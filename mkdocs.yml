@@ -1,0 +1,67 @@
+site_name: SPACE-SEA for Technical Sales
+site_url: https://lhaig.github.io/space-sea
+site_description: "Documentation for the SPACE for Technical Sales framework"
+site_author: "Lance Haig"
+docs_dir: docs/
+repo_url: https://github.com/lhaig/space-sea
+repo_name: lhaig/space-sea
+edit_uri_template: edit/main/docs/{path}
+copyright: "SPACE-SEA for Technical Sales © 2024 by Lance Haig is licensed under CC BY-SA 4.0 "
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: true
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.details
+  - pymdownx.snippets
+  - pymdownx.superfences
+
+theme:
+  icon:
+    repo: fontawesome/brands/github
+    edit: material/pencil
+    view: material/eye
+  name: material
+  logo: assets/logo.svg
+  favicon: images/favicon.png
+  palette:
+    primary: 'blue'
+  features:
+  - content.action.edit
+  - content.action.view
+  - content.tabs.link
+  - content.code.annotate
+  - content.code.copy
+  - navigation.footer
+  - navigation.indexes
+  - navigation.instant
+  - navigation.path
+  - navigation.tabs
+  - navigation.tabs.sticky
+  - navigation.tracking
+  - navigation.top
+  - search.suggest
+  - search.highlight
+  - toc.follow
+
+plugins:
+  - search
+  - awesome-pages
+  - git-revision-date-localized:
+      enable_creation_date: true
+      enabled: !ENV [CI, false]
+  - git-committers:
+      repository: lhaig/space-sea
+      branch: main
+      enabled: !ENV [CI, false]
+  - git-authors
+
+extra:
+  analytics:
+    provider: google
+    property: G-WL9FX54M06
